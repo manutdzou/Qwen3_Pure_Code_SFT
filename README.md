@@ -8,10 +8,10 @@ SFT Qwen3 Instruct model with mixture CoT and NonCoT data, Please refer to sft.j
 sh train_sft.sh
 ```
 
-## Reinforcement Learning
-
-Coming soon...
-
 ## QAT(Quantization Aware training)
+
+Support QAT linear layers and embedding layers use Q4-1 method.
+
+## Reinforcement Learning
 
 Coming soon...
