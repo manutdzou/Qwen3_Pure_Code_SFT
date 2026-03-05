@@ -12,6 +12,8 @@ sh train_sft.sh
 
 Support QAT linear layers and embedding layers use Q4-1 method.
 
-## Reinforcement Learning
+## Reinforcement Learning & Quantization
 
-Coming soon...
+Support PPO and grpo, mix rule based and neural based reward, especially explored the application of reinforcement learning in model quantization.
+
+One gpu for vllm inference, 7 gpus for training and 1 client to get reward scores, 1 client to get ref model logp.

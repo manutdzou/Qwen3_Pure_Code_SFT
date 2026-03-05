@@ -1,0 +1,1 @@
+VLLM_USE_V1=0 CUDA_VISIBLE_DEVICES=0 trl vllm-serve --model Qwen3-4B-250426
